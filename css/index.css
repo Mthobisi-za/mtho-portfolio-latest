@@ -19,7 +19,7 @@ body{
     height: 50vw;
     max-height: 49vw;
     overflow: hidden;
-    background-image: url('/assets/pc2.jpg');
+    background-image: url('./assets/pc2.jpg');
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -107,7 +107,7 @@ body{
 /*----top nav-----*/
 /*----about me----*/
 #about-me{
-   background-image: url('/assets/shapes/random-shapes-2.png');
+   background-image: url('./assets/shapes/random-shapes-2.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-color: black;
