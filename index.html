@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://kit.fontawesome.com/38a844c107.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/index.css" />
+    <script src="./libraries/anime-master/lib/anime.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mtho Portfolio</title>
+  </head>
+  <body>
+    <div class="body">
+      <div class="body-b">
+        <div class="tab">
+          <div class="left-tab">
+            <h2 class="h2 title">LOGO</h2>
+          </div>
+          <div class="right-tab">
+            <a href="" class="link">HOME</a>
+            <a href="#about-me" class="link">ABOUT ME</a>
+            <a href="" class="link">MY WORK</a>
+            <a href="#contact-me" class="link">CONTACT ME</a>
+          </div>
+        </div>
+        <div class="top-content" data-aos="fade-up" data-aos-duration="2000">
+            <div class="box">
+                <h2 class="subtitle">Web Development > Made Simple</h2>
+                <p class="p-text">Front end development / Wordpress Website Development / Full stack web application Developer</p>
+            </div>
+            <div class="box">
+                <button class="btn btn-1">Get a quote <i class="fa-solid fa-arrow-right arrow-1"></i> </button>
+                <button class="btn btn-2">view Projects <i class="fa-solid fa-arrow-right arrow-2"></i></button>
+            </div>
+        </div>
+      </div>
+    </div>
+    <div class="about-me" id="about-me" >
+       
+        <div class="about-me-section">
+            <div class="about-box" data-tilt>
+                <h2 class="h2h2" data-aos="fade-up" data-aos-duration="2000">About Me</h2>
+                <p data-aos="fade-up" data-aos-duration="2000">I am a graduate in Full Stack / Agile Web Dev from PROJECT CODEX. During my time at CODEX I grew Professional Discipline, Time Management and Skill set. I have work experience in JavaScript as a programming Language, using Express JS to develop A REST API to communicate with the PostgreSQL Database. Furthermore, I have used Axios to make requests from Client-side. Aside from my technical skill set, I have experience in presentation and team based projects. My hobbies and interest include Music Production, online gaming, Making YouTube coding Tutorials and Learning App Development using React-Native. These interest and hobbies have molded into a tech-savy, eager to learn in the sense I do not limit my self to one programming language at a time, I am a very calm and driven individual. My life philosophy is Hard work pays off, this is one of the reasons that I am in the tech industry and hungry for more knowledge.</p>
+            </div>
+        </div>
+    </div>
+   
+
+    
+  </body>
+  <script defer src="/libraries/tilt.js"></script>
+  <script defer>
+    AOS.init();
+    const tilt = $('.js-tilt').tilt();
+
+    // Destroy instance
+    tilt.tilt.destroy.call(tilt);
+
+    // Get values of instance
+    tilt.tilt.getValues.call(tilt); // returns [{},{},etc..]
+
+    // Reset instance
+    tilt.tilt.reset.call(tilt);
+
+</script>
+  <script defer src="./scripts/css-functions.js"></script>
+</html>
