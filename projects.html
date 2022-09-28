@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script
+      src="https://kit.fontawesome.com/38a844c107.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/projects.css" />
+    <script src="./libraries/anime-master/lib/anime.min.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"
+      integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mtho Portfolio > Projects</title>
+  </head>
+  <body>
+    <div class="body">
+      <div class="body-b">
+        <div class="tab">
+          <div class="left-tab">
+            <h2 class="h2 title">LOGO</h2>
+          </div>
+          <div class="right-tab">
+            <a href="" class="link">HOME</a>
+            <a href="#about-me" class="link">ABOUT ME</a>
+            <a href="" class="link">MY WORK</a>
+            <a href="#contact-me" class="link">CONTACT ME</a>
+          </div>
+        </div>
+        <div class="top-content" data-aos="fade-up" data-aos-duration="2000">
+          <div class="box">
+            <h2 class="subtitle">Projects</h2>
+            <p class="p-text">
+             
+            </p>
+          </div>
+          <div class="box">
+              <br>
+            <button class="btn btn-2">
+              <a
+                style="text-decoration: none; color: white"
+                href="#projects"
+                >Scroll Down To View Projects <i class="fa-solid fa-arrow-down"></i> </a>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="projects" id="projects">
+        <div class="projects-content">
+            <div class="row">
+                
+            </div>
+        </div>
+    </div>
+  </body>
+  <script defer src="./libraries/tilt.js"></script>
+  <script defer>
+    AOS.init();
+    const tilt = $(".js-tilt").tilt();
+
+    // Destroy instance
+    tilt.tilt.destroy.call(tilt);
+
+    // Get values of instance
+    tilt.tilt.getValues.call(tilt); // returns [{},{},etc..]
+
+    // Reset instance
+    tilt.tilt.reset.call(tilt);
+  </script>
+  <script defer src="./scripts/css-functions.js"></script>
+  <script defer src="./scripts/getData.js"></script>
+  <script src="./scripts/height.js"></script>
+  <script src="./scripts/facts.js"></script>
+</html>
