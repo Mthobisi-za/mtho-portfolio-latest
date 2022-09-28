@@ -1,0 +1,18 @@
+{
+    "projects":[
+        {
+            "name": "Ocean Capital",
+            "link": "https://ocean-responsive.netlify.app",
+            "pics": "./assets/projects/futurecapital.png",
+            "type": "new",
+            "skills": "html, css, javascript"
+        },
+        {
+            "name": "Soweto Fast Food Market",
+            "link": "https://sowetoffmarket.netlify.app/",
+            "pics": "./assets/projects/sowetofastfood.png",
+            "type": "new",
+            "skills": "html, css, javascript, axios, body-parser, postgresql, cors, express, nodejs, Handlebars"
+        }
+    ]
+}
